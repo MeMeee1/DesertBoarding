@@ -29,4 +29,5 @@ jobs:
       - name: Run tests
         uses: game-ci/unity-test-runner@v2
         with:
+          allowDirtyBuild: true
           unityVersion: 2020.3.26f1
